@@ -1,7 +1,7 @@
 name: ubuntu14.04-mysql
 version: 1.0.0
 description: Ubuntu 14.04 with MySQL
-inherits: typester/ubuntu14.04-ansible
+inherits: typester/ubuntu14.04-ansible@1.0.0
 type: main
 platform: ubuntu@12.04
 keywords:
