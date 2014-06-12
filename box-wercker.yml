@@ -1,0 +1,13 @@
+name: ubuntu14.04-mysql
+version: 1.0.0
+description: Ubuntu 14.04 with MySQL
+inherits: typester/ubuntu14.04-ansible
+type: main
+platform: ubuntu@12.04
+keywords:
+  - ubuntu
+  - 14.04
+  - mysql
+script: |
+  sudo apt-get update
+  sudo apt-get install mysql-server
